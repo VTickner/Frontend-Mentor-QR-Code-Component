@@ -20,8 +20,8 @@ The challenge was to build a QR code component and get the design for both the m
 
 ### Screenshot
 
-- Mobile view: ![Mobile qr code component screenshot](./images/mobile-qr-code-screenshot.jpg)
-- Desktop view: ![Desktop qr code component screenshot](./images/desktop-qr-code-screenshot.jpg)
+![Mobile qr code component screenshot](./images/mobile-qr-code-screenshot.jpg)
+![Desktop qr code component screenshot](./images/desktop-qr-code-screenshot.jpg)
 
 ### Links
 
