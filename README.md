@@ -26,7 +26,7 @@ The challenge was to build a QR code component and get the design for both the m
 ### Links
 
 - Solution URL: [https://github.com/VTickner/Frontend-Mentor-QR-Code-Component](https://github.com/VTickner/Frontend-Mentor-QR-Code-Component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://vtickner.github.io/Frontend-Mentor-QR-Code-Component/](https://vtickner.github.io/Frontend-Mentor-QR-Code-Component/)
 
 ## My process
 
