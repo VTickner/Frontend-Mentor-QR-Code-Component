@@ -30,12 +30,12 @@ The challenge was to build a QR code component and get the design for both the m
 
 ## My process
 
-- Created semantic html first
-- Used gimp (utilising guides and rulers) to help understand spacing and sizing for various elements of the design using the images provided
+- Created semantic HTML first
+- Used GIMP (utilising guides and rulers) to help understand spacing and sizing for various elements of the design using the images provided
 - Created CSS selectors to:
   - create custom variables to contain the various colours and font sizes used in the design
   - reset margin and padding to 0 with box-sizing: border-box to help with more accurate size measurements
-  - layout the design using flexbox
+  - layout the design using Flexbox
   - style the various elements
   - create a diffent width layout for desktop version
 
@@ -60,6 +60,7 @@ Extra practice using flexbox and integrating it into more complicated designs wi
 - [HSL to RGB colour conversion](https://www.rapidtables.com/convert/color/hsl-to-rgb.html) - This helped me to convert the shadow colour from HSL to RGB so that I could use RGBA to create a box shadow on the QR card.
 - [PX to REM converter](https://pixelsconverter.com/px-to-rem) - This helped me to convert px font sizes to rem sizes for a more responsive design.
 - [Google Fonts](https://fonts.google.com/specimen/Outfit) - Font used in the design was Outfit using Regular 400 and Bold 700 font styles.
+- [GIMP](https://www.gimp.org/) - Free and open source image editor.
 
 ## Author
 
