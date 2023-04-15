@@ -1,0 +1,78 @@
+:root {
+  /* COLOURS */
+  --qr-background-color: hsl(0, 0%, 100%);
+  --background-color: hsl(212, 45%, 89%);
+  --text-color: hsl(220, 15%, 55%);
+  --h1-text-color: #000;
+  /* need shadow color in rgb so can apply opacity for box shadow */
+  /* hsl(218, 44%, 22%) = rgb(31, 50, 81) */
+  --shadow-color: rgba(31, 50, 81, 0.05);
+
+  /* FONTS */
+  --text-font-size: 0.9375rem;
+  --h1-font-size: 1.375rem;
+  --h1-font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.qr-card-container {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 15px;
+  border-radius: 15px;
+  background: var(--qr-background-color);
+  box-shadow: 2px 15px 5px var(--shadow-color);
+}
+
+.qr-code {
+  width: 290px;
+  border-radius: 7.5px;
+  margin-bottom: 5px;
+}
+
+h1,
+p {
+  margin: 0 35px;
+}
+
+h1 {
+  color: var(--h1-text-color);
+  font-size: var(--h1-font-size);
+  font-weight: var(--h1-font-weight);
+}
+
+p {
+  font-size: var(--text-font-size);
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
